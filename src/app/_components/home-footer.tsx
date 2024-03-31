@@ -15,10 +15,9 @@ export default function HomeFooter({ className }: HtmlHTMLAttributes<HTMLDivElem
         className,
       )}
     >
-      {/* <Image src="/Group-67.png" alt="Unwallet" width={800} height={200} className="" />{' '}
+      <Image src="/Group-67.png" alt="Unwallet" width={800} height={200} className="" />{' '}
       {/* Fix the JSX element class error */}
-      <SignoutButton className="outline-none hover:text-foreground focus:text-foreground" /> */}
-      
+      <SignoutButton className="outline-none hover:text-foreground focus:text-foreground" />
     </footer>
   )
 }
